@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is Athbah Simple Webpage with PHP</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Athbah Webpage</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>This is a simple webpage to showcase information about me.</p>
+    </section>
+
+    <section>
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Sleeping</li>
+            <li>Eating</li>
+            <li>Studing</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Current Date and Time (PHP)</h2>
+        <?php
+            // PHP code to get and display the current date and time
+            echo "<p>Today is " . date("Y-m-d") . "</p>";
+            echo "<p>The current time is " . date("H:i:s") . "</p>";
+        ?>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Simple Webpage</p>
+    </footer>
+
+</body>
+</html>
